@@ -1,0 +1,180 @@
+{
+    "gender": {
+        "type": "categorical",
+        "values": [
+            "Male",
+            "Female"
+        ],
+        "default": "Male"
+    },
+    "SeniorCitizen": {
+        "type": "numeric",
+        "min": 0.0,
+        "max": 1.0,
+        "default": 0.0
+    },
+    "Partner": {
+        "type": "categorical",
+        "values": [
+            "No",
+            "Yes"
+        ],
+        "default": "No"
+    },
+    "Dependents": {
+        "type": "categorical",
+        "values": [
+            "No",
+            "Yes"
+        ],
+        "default": "No"
+    },
+    "tenure": {
+        "type": "numeric",
+        "min": 0.0,
+        "max": 72.0,
+        "default": 29.0
+    },
+    "PhoneService": {
+        "type": "categorical",
+        "values": [
+            "No",
+            "Yes"
+        ],
+        "default": "Yes"
+    },
+    "MultipleLines": {
+        "type": "categorical",
+        "values": [
+            "No phone service",
+            "No",
+            "Yes"
+        ],
+        "default": "No"
+    },
+    "InternetService": {
+        "type": "categorical",
+        "values": [
+            "DSL",
+            "Fiber optic",
+            "No"
+        ],
+        "default": "Fiber optic"
+    },
+    "OnlineSecurity": {
+        "type": "categorical",
+        "values": [
+            "No",
+            "Yes",
+            "No internet service"
+        ],
+        "default": "No"
+    },
+    "OnlineBackup": {
+        "type": "categorical",
+        "values": [
+            "No",
+            "Yes",
+            "No internet service"
+        ],
+        "default": "No"
+    },
+    "DeviceProtection": {
+        "type": "categorical",
+        "values": [
+            "Yes",
+            "No",
+            "No internet service"
+        ],
+        "default": "No"
+    },
+    "TechSupport": {
+        "type": "categorical",
+        "values": [
+            "No",
+            "Yes",
+            "No internet service"
+        ],
+        "default": "No"
+    },
+    "StreamingTV": {
+        "type": "categorical",
+        "values": [
+            "Yes",
+            "No",
+            "No internet service"
+        ],
+        "default": "No"
+    },
+    "StreamingMovies": {
+        "type": "categorical",
+        "values": [
+            "Yes",
+            "No",
+            "No internet service"
+        ],
+        "default": "No"
+    },
+    "Contract": {
+        "type": "categorical",
+        "values": [
+            "Month-to-month",
+            "Two year",
+            "One year"
+        ],
+        "default": "Month-to-month"
+    },
+    "PaperlessBilling": {
+        "type": "categorical",
+        "values": [
+            "No",
+            "Yes"
+        ],
+        "default": "Yes"
+    },
+    "PaymentMethod": {
+        "type": "categorical",
+        "values": [
+            "Electronic check",
+            "Mailed check",
+            "Credit card (automatic)",
+            "Bank transfer (automatic)"
+        ],
+        "default": "Electronic check"
+    },
+    "MonthlyCharges": {
+        "type": "numeric",
+        "min": 18.4,
+        "max": 118.75,
+        "default": 70.5
+    },
+    "TotalCharges": {
+        "type": "numeric",
+        "min": 0.0,
+        "max": 8684.8,
+        "default": 1394.925
+    },
+    "ServiceCount": {
+        "type": "numeric",
+        "min": 0.0,
+        "max": 8.0,
+        "default": 3.0
+    },
+    "AverageMonthlySpend": {
+        "type": "numeric",
+        "min": 13.828571428571427,
+        "max": 121.4,
+        "default": 70.58866637323943
+    },
+    "TenureGroup": {
+        "type": "categorical",
+        "values": [
+            "25-48 Months",
+            "13-24 Months",
+            "0-6 Months",
+            "49+ Months",
+            "7-12 Months"
+        ],
+        "default": "49+ Months"
+    }
+}

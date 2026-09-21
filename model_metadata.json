@@ -1,0 +1,10 @@
+{
+    "model_name": "CatBoost",
+    "model_file": "catboost_churn_model.cbm",
+    "threshold_file": "catboost_threshold.joblib",
+    "primary_metric": "PR-AUC",
+    "selection_method": "OOF PR-AUC",
+    "threshold_selection": "OOF F1 optimization",
+    "threshold": 0.5399999999999998,
+    "random_state": 42
+}
